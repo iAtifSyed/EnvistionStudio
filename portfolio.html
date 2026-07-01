@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Envision Studio</title>
+  <meta name="description" content="Explore Envision Studio's case studies. We build high-performance software, AI systems, and futuristic UI/UX designs for startups and global enterprises.">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo">
+        <span class="logo-dot"></span>
+        Envision Studio
+      </a>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" aria-label="Toggle dark mode">
+          <svg class="moon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+          </svg>
+          <svg class="sun-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"></path>
+          </svg>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm">Start Project</a>
+        <button class="hamburger" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container reveal">
+      <h1 class="page-header-title">Our Case Studies</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-active">Portfolio</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-pre">Our Masterpieces</span>
+        <h2>Proven Engineering Success</h2>
+        <p class="section-desc">Explore our curated digital assets, bespoke enterprise architectures, and intelligent cognitive systems engineered for industry leaders.</p>
+      </div>
+
+      <!-- Interactive Filter Controls -->
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All Solutions</button>
+        <button class="filter-btn" data-filter="fintech">Fintech</button>
+        <button class="filter-btn" data-filter="saas">SaaS Platform</button>
+        <button class="filter-btn" data-filter="healthtech">HealthTech</button>
+        <button class="filter-btn" data-filter="ai">AI Systems</button>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="grid-3" id="portfolioGrid">
+        
+        <!-- Case Study 1: AuraPay (Fintech) -->
+        <div class="portfolio-item reveal" data-category="fintech">
+          <div class="portfolio-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="AuraPay Finance Wallet" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Fintech</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>AuraPay Smart Wallet</h3>
+            <p>High-security global payment interface processing over 10M transactions daily with absolute zero downtime.</p>
+          </div>
+        </div>
+
+        <!-- Case Study 2: Chronos (SaaS) -->
+        <div class="portfolio-item reveal" data-category="saas" style="transition-delay: 0.05s;">
+          <div class="portfolio-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Chronos SaaS Platform" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">SaaS Platform</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Chronos Productivity Engine</h3>
+            <p>Corporate workspace software combining task tracking, real-time Gantt visualizers, and offline state syncing.</p>
+          </div>
+        </div>
+
+        <!-- Case Study 3: Helix (HealthTech) -->
+        <div class="portfolio-item reveal" data-category="healthtech" style="transition-delay: 0.1s;">
+          <div class="portfolio-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=600&q=80" alt="Helix Portal" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">HealthTech</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Helix Clinical Portal</h3>
+            <p>Patient analytics dashboard mapped to smart biometric hospital devices for automated records validation.</p>
+          </div>
+        </div>
+
+        <!-- Case Study 4: VectorML (AI) -->
+        <div class="portfolio-item reveal" data-category="ai" style="transition-delay: 0.15s;">
+          <div class="portfolio-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="VectorML Intelligence" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">AI Systems</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>VectorML Prediction Core</h3>
+            <p>Real-time supply chain forecasting engine incorporating complex neural networks and automated warehouse logic.</p>
+          </div>
+        </div>
+
+        <!-- Case Study 5: ZenFlow (HealthTech) -->
+        <div class="portfolio-item reveal" data-category="healthtech" style="transition-delay: 0.2s;">
+          <div class="portfolio-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=600&q=80" alt="ZenFlow App" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">HealthTech</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>ZenFlow Mobile</h3>
+            <p>Fully certified wellness mobile app featuring custom breathing animations and biometric feedback loop tracking.</p>
+          </div>
+        </div>
+
+        <!-- Case Study 6: Apex Ledger (Fintech / AI) -->
+        <div class="portfolio-item reveal" data-category="fintech ai" style="transition-delay: 0.25s;">
+          <div class="portfolio-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=600&q=80" alt="Apex Ledger Core" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Fintech</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Apex Ledger</h3>
+            <p>Decentralized ledger processing smart transaction verification with AI-assisted fraud detection engines.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="container reveal" style="margin-bottom: 8rem;">
+    <div class="cta-banner">
+      <h2>Let's build your custom product</h2>
+      <p>Consult with our lead architects today. We will assess your roadmap, evaluate data architecture options, and design a custom software blueprint.</p>
+      <a href="contact.html" class="btn" style="background-color: #FFFFFF; color: var(--primary-color); border: none;">Request Free Assessment</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="logo" style="margin-bottom: 1.5rem;">
+          <span class="logo-dot"></span>
+          Envision Studio
+        </a>
+        <p>Premium software development, web engineering, cloud solutions, cognitive AI design, and modern UI/UX design architecture built for businesses globally.</p>
+        <div class="footer-socials">
+          <a href="https://github.com/iatifsyed" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="GitHub">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="mailto:atifsyedlive@gmail.com" class="footer-social-btn" aria-label="Email">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L22 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <div class="footer-links">
+          <a href="services.html" class="footer-link">Software Development</a>
+          <a href="services.html" class="footer-link">Mobile Applications</a>
+          <a href="services.html" class="footer-link">Cloud Engineering</a>
+          <a href="services.html" class="footer-link">Cognitive AI Solutions</a>
+          <a href="services.html" class="footer-link">Modern UI/UX Design</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Home Portal</a>
+          <a href="about.html" class="footer-link">About Team</a>
+          <a href="services.html" class="footer-link">Services Catalog</a>
+          <a href="portfolio.html" class="footer-link">Case Studies</a>
+          <a href="contact.html" class="footer-link">Contact Desk</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Creative Engineer Credit</h4>
+        <p>This premium digital experience is engineered to represent ultimate craftsmanship.</p>
+        <div class="footer-credit-box">
+          <div class="footer-credit-title">
+            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" style="width: 18px; height: 18px; color: var(--secondary-color);"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"></path></svg>
+            Developed by Atif Syed
+          </div>
+          <div class="footer-credit-links">
+            <a href="https://iatifsyed.github.io/" target="_blank" rel="noopener noreferrer" class="credit-link">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+              Website Portfolio
+            </a>
+            <a href="https://github.com/iatifsyed" target="_blank" rel="noopener noreferrer" class="credit-link">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+              GitHub profile
+            </a>
+            <a href="https://wa.me/923004860591" target="_blank" rel="noopener noreferrer" class="credit-link">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+              WhatsApp Contact
+            </a>
+            <a href="mailto:atifsyedlive@gmail.com" class="credit-link">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L22 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              Email Direct
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Envision Studio. All rights reserved. Standalone Enterprise Codebase.</p>
+      <p style="font-size: 0.825rem; color: var(--text-muted);">
+        Crafted beautifully for Envision Studio. Authorized production.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" aria-label="Scroll back to top">
+    <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"></path>
+    </svg>
+  </button>
+
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+</html>

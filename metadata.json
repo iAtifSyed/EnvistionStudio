@@ -1,0 +1,8 @@
+{
+  "name": "Envision Studio",
+  "description": "A premium, fully responsive modern website for Envision Studio tech consulting and software development agency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
