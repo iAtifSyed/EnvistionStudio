@@ -171,7 +171,7 @@ npm run preview
 
 [![Issues](https://img.shields.io/badge/🐛_Report_Issue-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/iatifsyed/envision-studio/issues)
 [![Discussions](https://img.shields.io/badge/💬_Discussions-Get_Help-181717?style=for-the-badge&logo=github)](https://github.com/iatifsyed/envision-studio/discussions)
-[![Documentation](https://img.shields.io/badge/📚_Documentation-Read_Now-2563EB?style=for-the-badge)](https://github.com/iatifsyed/envisionstudio/wiki)
+[![Documentation](https://img.shields.io/badge/📚_Documentation-Read_Now-2563EB?style=for-the-badge)](https://github.com/iAtifSyed/EnvistionStudio/wiki)
 
 ---
 
